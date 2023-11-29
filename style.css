@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+  background: url("images/bg-pattern-top.svg") no-repeat,
+    url("images/bg-pattern-bottom.svg") no-repeat;
+  background-position-x: left, right;
+  background-position-y: top, bottom;
+  background-size: 45% 68%, 44% 55%;
+  background-clip: border-box;
+  background-color: hsl(185, 75%, 39%);
+}
+main {
+  width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  box-shadow: 2px 2px 30px hsl(185, 75%, 39%);
+}
+main img {
+  border-radius: 15px 15px 0 0;
+}
+/* -------------- upper part--------------  */
+.upper {
+  position: relative;
+  top: -55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.upper img {
+  width: 93px;
+  border-radius: 50%;
+  border: 4px solid hsl(0, 0%, 100%);
+}
+.dec {
+  margin-top: 17.5px;
+  margin-bottom: 10px;
+}
+.upper span.no {
+  margin-left: 12px;
+}
+hr {
+  border-top: 0.5px solid hsl(227, 13%, 86%);
+}
+span {
+  color: hsl(227, 10%, 46%);
+}
+.upper span.co {
+  font-size: small;
+}
+/* -------------- ground part --------------  */
+.Divgro {
+  margin-top: -30px;
+}
+.ground {
+  margin: 20px 5px 10px 5px;
+  display: flex;
+}
+.ground div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 20px;
+}
+.ground span {
+  font-size: 10px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+.upper strong,
+.ground div strong {
+  font-weight: 600;
+  font-size: 18px;
+}
